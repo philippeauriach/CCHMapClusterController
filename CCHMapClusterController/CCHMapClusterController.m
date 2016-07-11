@@ -235,10 +235,11 @@
 
 - (void)deselectAllAnnotations
 {
+    /*
     NSArray *selectedAnnotations = self.mapView.selectedAnnotations;
     for (id<MKAnnotation> selectedAnnotation in selectedAnnotations) {
         [self.mapView deselectAnnotation:selectedAnnotation animated:YES];
-    }
+    }*/
 }
 
 - (void)selectAnnotation:(id<MKAnnotation>)annotation andZoomToRegionWithLatitudinalMeters:(CLLocationDistance)latitudinalMeters longitudinalMeters:(CLLocationDistance)longitudinalMeters
